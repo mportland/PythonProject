@@ -91,12 +91,12 @@ def make_time_stamp(self):
 
 
 def ask_directory(self):                                                        #Initiates folder selection and inserts selected folder into text box
-    directory = filedialog.askdirectory(initialdir = 'C:/Users/Student/Desktop/Python' ,title='Select Folder')
+    directory = filedialog.askdirectory(initialdir = 'C/' ,title='Select Folder')
     self.txt_foldscan.insert(1,directory)
     
 
 def ask_destination(self):
-    directory1 = filedialog.askdirectory(initialdir = 'C:/Users/Student/Desktop/Python' ,title='Select Folder')
+    directory1 = filedialog.askdirectory(initialdir = 'C/' ,title='Select Folder')
     self.txt_foldrec.insert(1,directory1)
        
     
