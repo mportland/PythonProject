@@ -32,8 +32,7 @@ class ParentWindow(Frame):
         arg = self.master
 
         filemover_gui.load_gui(self)
-        
-        
+                
         menubar = Menu(self.master)
         filemenu = Menu(menubar, tearoff=0)     #Creating menubar bar for parent window
         filemenu.add_separator()
